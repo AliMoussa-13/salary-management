@@ -27,11 +27,13 @@ while again:
         
     salaryOfMonth=int(input(f"Enter your salary for {monthName} :"))
     print("Enter the following perctanges (%) :")
-    saving=float(input("1)Savings :"))
-    rent=float(input("2)Rents:"))
-    electricity=float(input("3)Electricity:"))
-    if(saving+rent+electricity>100):
+    savingPer=float(input("1)Savings :"))
+    rentPer=float(input("2)Rents:"))
+    electricityPer=float(input("3)Electricity:"))
+    if(savingPer+rentPer+electricityPer>100):
         again=True
         os.system('cls' if os.name == 'nt' else 'clear')
         print("The sum of the inputs is greater than 100(%) :( ")
         print("please enter the percentages in correct way in which the sum of the three inputs must be less than 100(%) ")
+
+print("hello")
